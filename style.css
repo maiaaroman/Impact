@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inactive {
+    display: none;
+}
+
+#header {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    background-color: black;
+}
+
+#contenedorCarrito {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    right: 300px;
+    top: 100px;
+    padding: 20px;
+    height: 300px;
+    overflow-y: scroll;
+    
+    -webkit-box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
+
+}
+
+#form {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    width: 700px;
+    left: 200px;
+    padding: 20px;
+    padding-top: 30px;
+    -webkit-box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
+}
+
+#flechita {
+    position:absolute;
+    top: 0;
+    left: 5px;
+    z-index: 12;
+    width: 30px;
+}
+
+
+.logo {
+    width: 222px;
+}
+
+.parrafo {
+    font-size: 15px;
+}
+
+.caja {
+    padding: 10px;
+    display: flex;
+}
+
+#contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colorFondo {
+    background-color: black;
+    padding: 10rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+#contCarrito {
+    width: 284px;
+}
+
+#ver {
+    width: 150px;
+    margin: 5px;
+    color: black;
+}
+
+.bi {
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+
+#vaciar {
+    width: 150px;
+    margin: 5px;
+    color: black;
+}
+
+#comprar {
+    width: 150px;
+    margin: 5px;
+    color:black;
+    text-decoration: none;
+}
+
+.eliminar {
+    color: black;
+}
+
+.add {
+    color: black;
+}
+
+.btn {
+    border-color: rgb(175, 173, 173);
+    color: black;
+    background-color: white;
+}
+
+.btn:hover {
+    border-color: black;
+    color: black;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+h5 {
+    padding-left: 22px;
+    padding-top: 10px;
+    width: 30px;
+    text-align: center;
+}
+
+ul {
+    align-items: center;
+    margin: 5px;
+}
+
+.row {
+    justify-content: center;
+}
+
+#formulario {
+    width: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.enviar {
+    width: 100px;
+    margin: 13px;
+}
+
+.cancelar {
+    width: 100px;
+    margin-top: -11px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer .icono {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .icono img {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.p {
+    font-size: 12px;
+    color: rgb(139, 137, 137);
+    margin: 10px;
+}
+
+.P {
+    font-size: 14px;
+    color: rgb(139, 137, 137);
+    margin: 10px;
+}
+
+.logo-footer {
+    width: 180px;
+}
+
+@media (max-width: 1710px) {
+    #footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
