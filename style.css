@@ -20,54 +20,31 @@ body {
     background-color: black;
 }
 
-#contenedorCarrito {
-    position: absolute;
-    z-index: 10;
-    background-color: white;
-    right: 300px;
-    top: 100px;
-    padding: 20px;
-    height: 300px;
-    overflow-y: scroll;
-    
-    -webkit-box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
-    box-shadow: -2px 2px 18px 0px rgba(0,0,0,0.75);
-
-}
-
 .logo {
     width: 222px;
 }
 
-#contenedorProductos {
+#fondoProductos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-}
-
-.colorFondo {
-    display: flex;
     background-color: black;
     padding: 8rem;
     margin: 1rem;
     border-radius: 8px;
-    gap: 30px;
+}
+
+#productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
-
-ul {
-    align-items: center;
-    margin: 5px;
-}
-
-.row {
-    justify-content: center;
 }
 
 #footer {
