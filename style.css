@@ -58,15 +58,25 @@ body {
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     align-items: center;
     justify-content: space-around;
+}
+
+#footer .der {
+    margin-bottom: 0.5rem;
+}
+
+#footer .der p {
+    display: flex;
+    justify-content: center;
 }
 
 #footer .icono {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 #footer .icono img {
@@ -110,5 +120,10 @@ body {
         display: flex;
         justify-content: center;
         padding-right: 0px;
+    }
+    #footer .icono {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
     }
 }
