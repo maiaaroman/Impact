@@ -88,7 +88,7 @@ body {
 #footer .ubicacion img {
     width: 18px;
     height: 18px;
-    filter: invert(100%);
+    filter: invert(80%);
 }
 
 .icono {
