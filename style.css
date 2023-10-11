@@ -76,12 +76,18 @@ body {
 #footer .icono {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 57px;
 }
 
 #footer .icono img {
     width: 20px;
     height: 20px;
+    filter: invert(100%);
+}
+
+#footer .ubicacion img {
+    width: 18px;
+    height: 18px;
     filter: invert(100%);
 }
 
@@ -109,6 +115,15 @@ body {
 
 .a {
     text-decoration: none;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
 }
 
 @media (max-width: 1710px) {
